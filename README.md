@@ -11,3 +11,7 @@ This contains learning materials and past projects I've given up on.
 - pythonUploadServer
 
 	Tool to create a simple temporary upload server
+
+- nginx-config
+
+	quick sets of nginx configs so I can copy paste
