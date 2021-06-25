@@ -8,6 +8,11 @@ This contains learning materials and past projects I've given up on.
 
 	Learning to make docker containers with mounted volumes
 
+- prodp
+
+	First time making an web api with golang, I made some sort of todo list api.
+	I tried out [echo](https://echo.labstack.com/).
+
 - pythonUploadServer
 
 	Tool to create a simple temporary upload server
