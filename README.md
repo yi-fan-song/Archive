@@ -4,6 +4,10 @@ This contains learning materials and past projects I've given up on.
 
 ## Content Lists
 
+- eslintrc.json
+
+	Some base preferences for eslint with typescript support, keeping it here for easy reference.
+
 - node-docker
 
 	Learning to make docker containers with mounted volumes

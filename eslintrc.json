@@ -1,0 +1,51 @@
+{
+	"env": {
+		"node": true,
+		"es2021": true
+	},
+	"extends": [
+		"eslint:recommended",
+		"plugin:@typescript-eslint/recommended",
+		"prettier"
+	],
+	"parser": "@typescript-eslint/parser",
+	"parserOptions": {
+		"ecmaVersion": 12,
+		"sourceType": "module"
+	},
+	"plugins": ["@typescript-eslint"],
+	"rules": {
+		"eqeqeq": "error",
+		"space-infix-ops": "error",
+		"handle-callback-err": "error",
+		"camelcase": "error",
+		"no-duplicate-imports": "error",
+		"no-eval": "error",
+		"no-extend-native": "error",
+		"no-floating-decimal": "error",
+		"no-implied-eval": "error",
+		"no-iterator": "error",
+		"no-label-var": "error",
+		"no-new-func": "error",
+		"no-new-object": "error",
+		"no-new-require": "error",
+		"no-new-wrappers": "error",
+		"no-octal-escape": "error",
+		"no-proto": "error",
+		"no-path-concat": "error",
+		"no-return-assign": "error",
+		"no-self-assign": "error",
+		"no-self-compare": "error",
+		"no-sequences": "error",
+		"no-throw-literal": "error",
+		"no-unmodified-loop-condition": "error",
+		"no-useless-call": "error",
+		"yoda": "warn",
+		"no-useless-computed-key": "warn",
+		"no-useless-constructor": "warn",
+		"no-useless-rename": "warn",
+		"no-unneeded-ternary": "warn",
+		"no-undef-init": "warn",
+		"no-extra-bind": "warn"
+	}
+}
